@@ -9,7 +9,7 @@ $(document).ready(function(){
         if(data)
           alert(data);
         else
-          $(".moliereForm").reset();
+          $(".moliereForm")[0].reset();
       }
     });
     e.preventDefault();
