@@ -1,0 +1,134 @@
+#bio{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px; 
+  background-color: #3F51B5;
+text-align:center;
+margin:auto;
+}
+.profile-pic{
+width:100%;
+height:100%
+}
+.profile-pic img {
+position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.posthaven-tab {
+   display: none !important;
+}
+#main_container{
+
+}
+#header{
+background-color: #3F51B5;
+margin-bottom: 2cm;
+width:100%;
+max-width:100% !important;
+text-align:center;
+padding-top:2em;
+padding-bottom:1em;
+margin:0;
+border-bottom:thick solid black;
+}
+
+#header:before {
+    position:absolute; left:-1px; top:-1px; content:'';
+    border-top: 70px solid silver;
+    border-right: 70px solid transparent;
+}
+
+#header:after {
+    position:absolute; left:-2px; top:-2px; content:'';
+    border-top: 70px solid white;
+    border-right: 70px solid transparent;
+}
+
+#back_to_blog{
+display:none;
+}
+#header h1 {
+padding-bottom : .2em;
+}
+#header h1 a {
+color:#ffffff !important;
+font-family: "Georgia", Sans-serif;
+}
+#header h2 {
+font-family: "Garamond", serif;
+color:#E0E0E0;
+}
+#sidebar{
+padding-top:2em;
+border:thin solid black;
+    margin-left: 0px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+margin-right:0;
+text-align:center;
+}
+.menu-item {
+border-bottom: thin black solid;
+}
+.menu-item{
+text-align:center;
+}
+.menu-item a {
+margin: 0 auto;
+font-size: 1.5em;
+font-weight: bold;
+text-align: center;
+color:#3F51B5;
+width:100%;
+}
+.menu-item a:hover{
+color:#000000;
+text-decoration: none;
+}
+.subscribe{
+ display: none !important;
+}
+#feed_link{
+ display: none !important;
+}
+
+.post{
+margin:auto;
+max-width:900px;
+border-bottom:medium solid black;
+    padding-bottom: 2em;
+
+}
+.post-title h2{
+color:#3F51B5 !important;
+font-family: "Georgia", Sans-serif;
+font-size:2em !important;
+}
+.post-body p{
+font-family: "Garamond", serif;
+color:#000000;
+font-size: 1.2em;
+}
+.stats{
+display:none;
+}
+.posthaven-widget {
+display:none;
+}
+#main{
+max-width:100%;
+}
+
+#topbar{
+display: none
+}
+
+.back-to-blog{
+display:none;
+}
+
+.subhead{
+display:none;
+}
+
