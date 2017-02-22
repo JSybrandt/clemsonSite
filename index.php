@@ -9,7 +9,6 @@ include 'depends.php';
 <?php
 include 'navbar.php';
 ?>
-
 <h2>Current Projects</h2>
 
 <p>The following projects are either in submission or in progress.</p>
