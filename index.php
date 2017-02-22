@@ -10,7 +10,9 @@ include 'depends.php';
 include 'header.php';
 //include 'navbar.php';
 ?>
+<div class="w3-card-4 card purple">
 <h1>Current Projects</h1>
+</div>
 
 <!--
 <div class="w3-card-4 card">

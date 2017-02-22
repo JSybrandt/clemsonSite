@@ -3,6 +3,7 @@
 <?php
 include 'depends.php';
 ?>
+<script src="js/ajaxForm.js"></script>
 </head>
 <body>
 <?php
@@ -34,6 +35,5 @@ include 'header.php';
   </div>
 </div>
 
-<script src="js/ajaxForm.js"></script>
 
 </body>
