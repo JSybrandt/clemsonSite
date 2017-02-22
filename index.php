@@ -1,4 +1,14 @@
-<h1>Justin Sybrandt</h1>
+<head>
+<title>Justin Sybrandt</title>
+<?php
+include 'depends.php';
+?>
+</head>
+<body>
+
+<?php
+include 'navbar.php';
+?>
 
 <h2>Current Projects</h2>
 
@@ -16,3 +26,4 @@
 
 <p>I am a Graduate Student here at Clemson University.
 I currently am interested in Machine Learning with applications in Civil Engineering and Medicine. I am incredibly interested in the potential that cross-disciplinary collaborations have to further science and benefit society. During my time at NERSC, I saw these sorts of projects and the type of work happening at our National Labs which inspired me to pursue similar work in my career.</p>
+</body>
