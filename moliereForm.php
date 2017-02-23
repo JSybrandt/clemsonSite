@@ -11,7 +11,7 @@ include 'header.php';
 ?>
 <div class="w3-card-4 card">
   <header class="w3-container purple">
-    <h1>Request Moliere Query</h1>
+    <h1>Request MOLIERE Query</h1>
   </header>
   <div class="w3-container">
 
@@ -30,8 +30,10 @@ include 'header.php';
     <tr><td>Keyword ID 2:</td>
         <td> <input type="text" name="keyword2"></td></tr>
     </table>
+    <div class="g-recaptcha" data-sitekey="6LcpmBYUAAAAALGw7BKUGe6dGC0qEr7hBMYSi9ha"></div>
     <input type="submit" name="submit" value="Submit">
     </form>
+  <p class="resultText"></p>
   </div>
 </div>
 

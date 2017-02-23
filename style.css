@@ -1,3 +1,9 @@
+.err{
+  color:#ff0000;
+}
+.success{
+  color:#00ff00;
+}
 .purple{
   background-color: #673AB7 !important;
   color:#ffffff

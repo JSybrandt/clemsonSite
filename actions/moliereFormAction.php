@@ -1,14 +1,33 @@
 <?php
 
+session_start();
+
 $name=htmlspecialchars($_POST["name"]);
 $organization=htmlspecialchars($_POST["organization"]);
 $email=htmlspecialchars($_POST["email"]);
 $keyword1=htmlspecialchars($_POST["keyword1"]);
 $keyword2=htmlspecialchars($_POST["keyword2"]);
 
+if(isset($_POST['g-recaptcha-response']))
+  $captcha=$_POST['g-recaptcha-response'];
+
+
 if($name && $email && $keyword1 && $keyword2){
 
-  //mail("jsybran@clemson.edu","MOLIERE Query",$name);
+
+  if(!$captcha){
+    echo 'Please check the captcha form.';
+    exit;
+  }
+  $response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LcpmBYUAAAAANk7MBLbqHvEuasGQSxjgsQLuTUZ&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+  if($response['success'] == false)
+  {
+    echo 'You are spammer!';
+    die();
+  }
+
+  mail("jsybran@clemson.edu","MOLIERE Query",$name, "From:MOLIERE_QUERY@people.clemson.edu\n");
+
   $serverName = "sbxmysql.clemson.edu";
   $username = "jsybran";
   $password = "V*AEsJl|ah)i";
