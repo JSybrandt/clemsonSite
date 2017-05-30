@@ -7,22 +7,52 @@ include 'depends.php';
 <body>
 
 <?php
-include 'navbar.php';
+include 'header.php';
+//include 'navbar.php';
 ?>
-<h2>Current Projects</h2>
+<div class="w3-card-4 card purple">
+<h1>Current Projects</h1>
+</div>
 
-<p>The following projects are either in submission or in progress.</p>
+<!--
+<div class="w3-card-4 card">
+  <header class="w3-container purple">
+    <h1></h1>
+  </header>
+  <div class="w3-container">
+    <p></p>
+  </div>
+</div>
+-->
 
-<h3>MOLIERE: Automatic Biomedical Hypothesis Generation System</h3>
+<div class="w3-card-4 card">
+  <header>
+    <img src="/img/moliere.png">
+  </header>
+  <div class="w3-container">
+    <p>
+Hypothesis generation is becoming a crucial time-saving technique which allows biomedical researchers to quickly discover implicit connections between important concepts. Typically, these systems operate on domain-specific fractions of public medical data. MOLIERE, in contrast, utilizes information from over 24.5 million documents. At the heart of our approach lies a multi-modal and multi-relational network of biomedical objects extracted from several heterogeneous datasets from the National Center for Biotechnology Information (NCBI). These objects include but are not limited to scientific papers, keywords, genes, proteins, diseases, and diagnoses. We model hypotheses using Latent Dirichlet Allocation applied on abstracts found near shortest paths discovered within this network, and demonstrate the effectiveness of MOLIERE by performing hypothesis generation on historical data. Our network, implementation, and resulting data are all publicly available for the broad scientific community
+    </p>
+  </div>
+</div>
 
-<p>Hypothesis generation is becoming a crucial time-saving technique which allows biomedical researchers to quickly discover implicit connections between important concepts. Typically, these systems operate on domain-specific fractions of public medical data. MOLIERE, in contrast, utilizes information from over 24.5 million documents. At the heart of our approach lies a multi-modal and multi-relational network of biomedical objects extracted from several heterogeneous datasets from the National Center for Biotechnology Information (NCBI). These objects include but are not limited to scientific papers, keywords, genes, proteins, diseases, and diagnoses. We model hypotheses using Latent Dirichlet Allocation applied on abstracts found near shortest paths discovered within this network, and demonstrate the effectiveness of MOLIERE by performing hypothesis generation on historical data. Our network, implementation, and resulting data are all publicly available for the broad scientific community</p>
-
-<h3>Automatic Bridge Health Identification</h3>
-
+<div class="w3-card-4 card">
+  <header class="w3-container purple">
+    <h1>Automatic Bridge Health Identification</h1>
+  </header>
+  <div class="w3-container">
 <p>As the trend towards smart and connected vehicles continues, we will likely find the cars of the future to be sophisticated computational devices. We imagine these cars will be connected through VANET or some alternative which allows vehicles to communicate and share information. We can take advantage of this dynamic computational network in order to collect information pertinent to civil policy and maintenance. We imagine that smart cars of the near future will be well equipped to collect data related to the condition of civil infrastructure such as bridges. In this project we attempt to collect and understand this information. We estimate the signal-to-noise ration will be very low, which requires us to model and understand the sources of uncertainty in a machine learning model.</p>
+  </div>
+</div>
 
-<h2>About Me</h2>
 
-<p>I am a Graduate Student here at Clemson University.
-I currently am interested in Machine Learning with applications in Civil Engineering and Medicine. I am incredibly interested in the potential that cross-disciplinary collaborations have to further science and benefit society. During my time at NERSC, I saw these sorts of projects and the type of work happening at our National Labs which inspired me to pursue similar work in my career.</p>
+<div class="w3-card-4 card">
+  <header class="w3-container purple">
+    <h1>About Me</h1>
+  </header>
+  <div class="w3-container">
+<p>I am a Graduate Student here at Clemson University. I currently am interested in Machine Learning with applications in Civil Engineering and Medicine. I am incredibly interested in the potential that cross-disciplinary collaborations have to further science and benefit society. During my time at NERSC, I saw these sorts of projects and the type of work happening at our National Labs which inspired me to pursue similar work in my career.</p>
+  </div>
+</div>
+
 </body>
