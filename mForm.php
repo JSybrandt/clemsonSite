@@ -15,6 +15,7 @@ include 'header.php';
   </header>
   <div class="w3-container">
 
+<p class="red">WARNING: DUE TO SYSTEM LIMITATIONS, MOLIERE QUERIES HAVE NOT YET BEEN AUTOMATED. WE WILL RESPOND TO REQUESTS AS WE ARE ABLE.</p>
 <p>The following form will request information from the MOLIERE Biometical Hypothesis Generation System. Please allow at least 24 hours for us to respond to your query. If you have any questions, please contact us at jsybran (at) clemson (dot) edu.</p>
 
     <form class="moliereForm" method="post">
