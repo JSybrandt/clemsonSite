@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 iframe{
   width:100%;
   padding:0;
   border:0;
   height:500px;
 }
+=======
+>>>>>>> 81119c40792618d8dcbf5085754773bc48bb3252
 .err{
   color:#ff0000;
 }
@@ -13,9 +16,12 @@ iframe{
 .purple{
   background-color: #673AB7 !important;
   color:#ffffff
+<<<<<<< HEAD
 }
 .red{
   color:#ff0000
+=======
+>>>>>>> 81119c40792618d8dcbf5085754773bc48bb3252
 }
 #pageheader{
 background-color: #673AB7;
@@ -39,7 +45,10 @@ border-bottom:thick solid black;
 }
 .card{
   width:90%;
+<<<<<<< HEAD
   max-width:800px;
+=======
+>>>>>>> 81119c40792618d8dcbf5085754773bc48bb3252
   float: none;
   margin:auto;
   margin-bottom:1cm;
