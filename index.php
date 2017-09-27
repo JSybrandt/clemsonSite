@@ -3,6 +3,8 @@
 <?php
 include 'depends.php';
 ?>
+
+<meta http-equiv="refresh" content="0; url=http://justin.sybrandt.com/" />
 </head>
 <body>
 
